@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFF5E1;
+    /* font-family: 'Inter'; */
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    background-color: #3C3A39;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.menu h3 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-class {
+    background-color: #1C1A19;
+    padding: 30px;
+    background-image: url("./imgs/Group.svg");
+    background-repeat: no-repeat;
+    background-position: right 15rem;
+    background-size: 5.7rem;
+    padding: 6rem 25px;
+}
+
+.body-class h1 {
+    color:  #FF6B00;
+    font-size: 56px;
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Crete Round', serif;
+    line-height: 64px;
+}
+
+.body-class span {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+}
+
+.body-class p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
