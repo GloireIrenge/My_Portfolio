@@ -2,7 +2,7 @@
 
 # Project Name
 
-A simple Portofolio project this project includes just few files: the stylesheet file, the html file and other coplementary files
+A simple Portfolio project this project includes just few files: the stylesheet file, the html file and other coplementary files
 
 
 ## Built With
