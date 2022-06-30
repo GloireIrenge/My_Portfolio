@@ -59,7 +59,6 @@ header {
   font-family: 'Roboto', sans-serif;
 }
 
-
 ul {
   list-style: none;
   float: left;
@@ -70,13 +69,9 @@ ul {
   margin-left: -10px;
 }
 
-
 li {
   padding: 10px;
   list-style: none;
-  display: flex;
   float: left;
-  display: inline;
   align-items: baseline;
 }
-
