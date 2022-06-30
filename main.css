@@ -55,3 +55,15 @@ header {
   font-size: 16px;
   color: #fff;
 }
+
+.social_media {
+  display: flex;
+}
+
+.icon {
+  left: 0.04%;
+  right: 0.03%;
+  top: 0.02%;
+  bottom: 0%;
+  padding: 0.3%;
+}
