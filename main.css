@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@100&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff5e1;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.menu h3 {
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.body-class {
+  font-style: normal;
+  background-color: #1c1a19;
+  padding: 30px;
+  background-image: url("./imgs/Group.svg");
+  background-repeat: no-repeat;
+  background-position: right 15rem;
+  background-size: 5.7rem;
+  padding-bottom: 50%;
+}
+
+.body-class h1 {
+  color: #ff6b00;
+  font-size: 56px;
+  margin: 0;
+  font-weight: 400;
+  font-family: 'Crete Round', serif;
+  line-height: 64px;
+  margin-top: 20%;
+}
+
+.body-class span {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.body-class p {
+  font-size: 14px;
+  font-weight: 50;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+  float: left;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-left: -10px;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+  float: left;
+  align-items: baseline;
+}
+
+a {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+}

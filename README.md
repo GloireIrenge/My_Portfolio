@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio
 
 A simple Portfolio project this project includes just few files: the stylesheet file, the html file and other coplementary files
 
