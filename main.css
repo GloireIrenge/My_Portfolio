@@ -34,7 +34,7 @@ header {
   background-repeat: no-repeat;
   background-position: right 15rem;
   background-size: 5.7rem;
-  padding-bottom: 20%;
+  padding-bottom: 50%;
 }
 
 .body-class h1 {
@@ -59,25 +59,24 @@ header {
   font-family: 'Roboto', sans-serif;
 }
 
-.social_media {
-  display: flex;
-}
 
 ul {
   list-style: none;
-  display: flex;
   float: left;
-  margin-bottom: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-left: -10px;
 }
+
 
 li {
   padding: 10px;
   list-style: none;
   display: flex;
   float: left;
-  margin-bottom: 20%;
+  display: inline;
+  align-items: baseline;
 }
 
-.social_icon {
-  padding-bottom: 200px;
-}
