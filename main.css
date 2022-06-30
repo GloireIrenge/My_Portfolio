@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@100&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   color: #fff5e1;
-
-  /* font-family: 'Inter'; */
 }
 
 header {
@@ -28,12 +27,15 @@ header {
 }
 
 .body-class {
+  font-family: 'Poppins';
+  font-style: normal; 
   background-color: #1c1a19;
   padding: 30px;
   background-image: url("./imgs/Group.svg");
   background-repeat: no-repeat;
   background-position: right 15rem;
   background-size: 5.7rem;
+  padding-bottom: 20%;
 }
 
 .body-class h1 {
@@ -43,6 +45,7 @@ header {
   font-weight: 400;
   font-family: 'Crete Round', serif;
   line-height: 64px;
+  margin-top: 20%;
 }
 
 .body-class span {
@@ -52,18 +55,22 @@ header {
 }
 
 .body-class p {
-  font-size: 16px;
-  color: #fff;
+  font-size: 14px;
+  font-weight: 50;
+  font-family: 'Roboto', sans-serif;
+  
 }
 
 .social_media {
   display: flex;
 }
 
-.icon {
+ ul{
+  display: flex;
   left: 0.04%;
   right: 0.03%;
   top: 0.02%;
   bottom: 0%;
-  padding: 0.3%;
+  padding:5px;
+  list-style: none;
 }
