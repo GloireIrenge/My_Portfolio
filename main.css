@@ -27,8 +27,7 @@ header {
 }
 
 .body-class {
-  font-family: 'Poppins';
-  font-style: normal; 
+  font-style: normal;
   background-color: #1c1a19;
   padding: 30px;
   background-image: url("./imgs/Group.svg");
@@ -58,19 +57,27 @@ header {
   font-size: 14px;
   font-weight: 50;
   font-family: 'Roboto', sans-serif;
-  
 }
 
 .social_media {
   display: flex;
 }
 
- ul{
-  display: flex;
-  left: 0.04%;
-  right: 0.03%;
-  top: 0.02%;
-  bottom: 0%;
-  padding:5px;
+ul {
   list-style: none;
+  display: flex;
+  float: left;
+  margin-bottom: 20%;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  float: left;
+  margin-bottom: 20%;
+}
+
+.social_icon {
+  padding-bottom: 200px;
 }
