@@ -9,7 +9,7 @@ A simple Portfolio project this project includes just few files: the stylesheet 
 
 - html and css
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
