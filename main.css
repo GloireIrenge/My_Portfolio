@@ -83,3 +83,17 @@ a {
   text-decoration: none;
   font-weight: 700;
 }
+.works-title{
+  color: #1C1A19;
+  width: 327px;
+  height: 83px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
