@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@100&display=swap');
 
+
 body {
   margin: 0;
   padding: 0;
@@ -352,7 +353,7 @@ input[type=submit] {
   top: 0;
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 18px;
   background-color: #ff6b00;
   border-style: none;
   color: #fff;
