@@ -153,19 +153,60 @@ header {
   font-family: 'Roboto', sans-serif;
 }
 
-.button div button:hover{
-     background:  #FFF5E1;
-     color:#F55800;
-
-  transition: background-color 2s ease-out;
-   
+.multi-post button {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  color: rgb(19, 18, 18);
+  font-weight: 500;
+  font-size: 15px;
+  float: left;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: -10px;
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
 }
-.big-button:hover{
-  background:  #FFF5E1;
-  color:#F55800;
 
-transition: background-color 2s ease-out;
+.multi-post2 button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  background-color: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  border-style: none;
+  float: left;
+  justify-content: space-evenly;
+  margin-left: -10px;
+}
 
+.big-button {
+  visibility: hidden;
+  width: 337px;
+  height: 48px;
+  left: 0;
+  top: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  background-color: #ff6b00;
+  border-style: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.button div button:hover {
+  background: #fff5e1;
+  color: #f55800;
+  transition: background-color 2s ease-out;
+}
+
+.big-button:hover {
+  background: #fff5e1;
+  color: #f55800;
+  transition: background-color 2s ease-out;
 }
 
 .body-class {
@@ -253,21 +294,6 @@ transition: background-color 2s ease-out;
   color: #091e42;
 }
 
-.multi-post button {
-  background-color: #fff;
-  display: flex;
-  flex-direction: row;
-  color: rgb(19, 18, 18);
-  font-weight: 500;
-  font-size: 15px;
-  float: left;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-left: -10px;
-  padding: 10px 12px;
-  border: 1px solid #8993a4;
-}
-
 .multi-post h2 {
   color: #1c1a19;
   font-family: 'Roboto', sans-serif;
@@ -320,19 +346,6 @@ transition: background-color 2s ease-out;
   color: #fff;
 }
 
-.multi-post2 button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  background-color: rgba(255, 255, 255, 0.24);
-  color: #fff;
-  border-style: none;
-  float: left;
-  justify-content: space-evenly;
-  margin-left: -10px;
-}
-
 .big-button1 {
   background-color: #ff6b00;
   padding: 12px;
@@ -345,22 +358,6 @@ transition: background-color 2s ease-out;
   border: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
-}
-
-.big-button {
-  visibility: hidden;
-  width: 337px;
-  height: 48px;
-  left: 0;
-  top: 0;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  background-color: #ff6b00;
-  border-style: none;
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.03em;
 }
 
 .big-button4 {
