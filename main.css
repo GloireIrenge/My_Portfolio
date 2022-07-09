@@ -25,6 +25,21 @@ header {
   font-family: 'Roboto', sans-serif;
 }
 
+.button div button:hover{
+     background:  #FFF5E1;
+     color:#F55800;
+
+  transition: background-color 2s ease-out;
+   
+}
+.big-button:hover{
+  background:  #FFF5E1;
+  color:#F55800;
+
+transition: background-color 2s ease-out;
+
+}
+
 .body-class {
   font-style: normal;
   background-color: #1c1a19;
