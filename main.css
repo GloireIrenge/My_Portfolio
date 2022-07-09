@@ -617,6 +617,11 @@ footer {
   text-align: center;
 }
 
+.seeprojects {
+  margin-left: 112%;
+  margin-top: -40%;
+}
+
 /* grid desktop */
 .grid-container {
   display: grid;
