@@ -653,14 +653,31 @@ article.featured {
 ::placeholder { 
   color: rgb(41, 37, 37);
   opacity: 10;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration-style: solid;
 }
 
 input[type=text]:focus {
-  color: #f48209;
+  color: #5b3308;
   font-weight: 1500;
-  font-size: 40px,
+  font-size: 20px;
+  background-color: rgba(255, 102, 0, 0.494);
+}
+input[type=email]:focus {
+  color: #5b3308;
+  font-weight: 1500;
+  font-size: 20px;
+  background-color: rgba(255, 102, 0, 0.494);
+}
+textarea:focus {
+  color: #5b3308;
+  font-weight: 1500;
+  font-size: 20px;
+  background-color: rgba(255, 102, 0, 0.494);
+}
+.label{
+  color:rgba(99, 59, 59, 0.816);
+  font-size: 18px;
 }
 
 /* Responsive */
@@ -714,6 +731,10 @@ input[type=text]:focus {
     align-items: center;
     padding-inline-start: 0;
     margin-left: -10px;
+  }
+
+  p{
+    color-contrast ( wheat vs tan, sienna, #d2691e);
   }
 
   .design {
