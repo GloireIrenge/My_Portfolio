@@ -3,7 +3,8 @@
 # Portfolio
 
 A simple Portfolio project this project includes just few files: the stylesheet file, the html file and other coplementary files
-website : https://gloireirenge.github.io/My_Portfolio/
+
+web page : https://gloireirenge.github.io/My_Portfolio/
 ## Built With
 
 - html and css
