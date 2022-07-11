@@ -404,13 +404,14 @@ img {
 }
 
 p {
-  color: color-contrast(#091e42 vs #FFF, #000);
+  color: color-contrast(#091e42 vs #fff, #000);
   font-style: normal;
   font-weight: 900;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
 }
+
 .about p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -624,9 +625,12 @@ footer {
 .languages_list1 {
   text-align: center;
 }
-.seeprojects{
-  margin-left: 112%; margin-top: -40%;
+
+.seeprojects {
+  margin-left: 112%;
+  margin-top: -40%;
 }
+
 /* grid desktop */
 .grid-container {
   display: grid;
@@ -658,7 +662,7 @@ article.featured {
   padding-left: 10%;
 }
 
-::placeholder { 
+::placeholder {
   color: rgb(41, 37, 37);
   opacity: 10;
   font-size: 20px;
@@ -671,20 +675,23 @@ input[type=text]:focus {
   font-size: 20px;
   background-color: rgba(255, 102, 0, 0.494);
 }
+
 input[type=email]:focus {
   color: #5b3308;
   font-weight: 1500;
   font-size: 20px;
   background-color: rgba(255, 102, 0, 0.494);
 }
+
 textarea:focus {
   color: #5b3308;
   font-weight: 1500;
   font-size: 20px;
   background-color: rgba(255, 102, 0, 0.494);
 }
-.label{
-  color:rgba(99, 59, 59, 0.816);
+
+.label {
+  color: rgba(99, 59, 59, 0.816);
   font-size: 18px;
 }
 
@@ -742,7 +749,7 @@ textarea:focus {
   }
 
   p{
-    color-contrast ( wheat vs tan, sienna, #d2691e);
+    color-contrast ( wheat vs tan, sienna, #d2691e)
   }
 
   .design {
