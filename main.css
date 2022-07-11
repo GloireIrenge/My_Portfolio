@@ -403,6 +403,14 @@ img {
   width: 100%;
 }
 
+p {
+  color: color-contrast(#091e42 vs #FFF, #000);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
 .about p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
