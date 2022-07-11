@@ -291,7 +291,7 @@ header {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #091e42..;
+  color: #091e42;
 }
 
 .multi-post h2 {
@@ -648,6 +648,19 @@ article.featured {
   padding-bottom: 40px;
   padding-right: 10%;
   padding-left: 10%;
+}
+
+::placeholder { 
+  color: rgb(41, 37, 37);
+  opacity: 10;
+  font-size: 15px;
+  text-decoration-style: solid;
+}
+
+input[type=text]:focus {
+  color: #f48209;
+  font-weight: 1500;
+  font-size: 40px,
 }
 
 /* Responsive */
