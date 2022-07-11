@@ -616,12 +616,9 @@ footer {
 .languages_list1 {
   text-align: center;
 }
-
-.seeprojects {
-  margin-left: 112%;
-  margin-top: -40%;
+.seeprojects{
+  margin-left: 112%; margin-top: -40%;
 }
-
 /* grid desktop */
 .grid-container {
   display: grid;
