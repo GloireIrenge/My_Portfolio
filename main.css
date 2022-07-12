@@ -411,6 +411,9 @@ p {
   line-height: 24px;
   color: #f4f5f7;
 }
+.AboutDescription h2{
+  color: #ff6b00;
+}
 
 .about p {
   font-family: 'Roboto', sans-serif;
