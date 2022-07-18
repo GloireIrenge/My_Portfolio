@@ -4,7 +4,7 @@
   height: 50px;
   width: 100%;
   background-color: #3e3c3c;
-  position: relative;
+  position: fixed;
   font-family: 'Roboto', sans-serif;
   color: #fff;
 }
