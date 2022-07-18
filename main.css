@@ -4,7 +4,6 @@
   height: 50px;
   width: 100%;
   background-color: #3e3c3c;
-  position: fixed;
   font-family: 'Roboto', sans-serif;
   color: #fff;
 }
@@ -82,6 +81,11 @@ p {
   color: #f4f5f7;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 @media (max-width: 600px) {
   .nav > .nav-btn {
     display: inline-block;
@@ -140,6 +144,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff5e1;
+  position: relative;
 }
 
 header {
