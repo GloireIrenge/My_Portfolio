@@ -4,7 +4,6 @@
   height: 50px;
   width: 100%;
   background-color: #3e3c3c;
-  position: relative;
   font-family: 'Roboto', sans-serif;
   color: #fff;
 }
@@ -42,7 +41,7 @@
 
 a {
   display: inline-block;
-  padding: 13px 10px 13px 10px;
+  padding: 23px 10px 13px 10px;
   text-decoration: none;
   color: #efefef;
 }
@@ -80,6 +79,11 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
 
 @media (max-width: 600px) {
@@ -140,6 +144,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff5e1;
+  position: relative;
 }
 
 header {
@@ -928,5 +933,24 @@ textarea:focus {
   .seeprojects {
     margin-left: 0;
     margin-top: 5%;
+  }
+
+  .bar {
+    display: block;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-btn.active .bar:nth-child(2) {
+    opacity: 1;
+    transform: translateY(0) rotate(-45deg);
+  }
+
+  .nav-btn.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .nav-btn.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
 }
