@@ -74,6 +74,14 @@ a {
   margin-left: -10px;
 }
 
+p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
 @media (max-width: 600px) {
   .nav > .nav-btn {
     display: inline-block;
@@ -403,6 +411,10 @@ img {
   width: 100%;
 }
 
+.AboutDescription h2 {
+  color: #ff6b00;
+}
+
 .about p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -653,6 +665,41 @@ article.featured {
   padding-left: 10%;
 }
 
+::placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(41, 37, 37);
+  opacity: 10;
+  font-size: 22px;
+  text-decoration-style: solid;
+}
+
+input[type=text]:focus {
+  color: #5b3308;
+  font-weight: 1500;
+  font-size: 20px;
+  background-color: rgba(255, 102, 0, 0.494);
+}
+
+input[type=email]:focus {
+  color: #5b3308;
+  font-weight: 1500;
+  font-size: 20px;
+  background-color: rgba(255, 102, 0, 0.494);
+}
+
+textarea:focus {
+  color: #5b3308;
+  font-weight: 1500;
+  font-size: 20px;
+  background-color: rgba(255, 102, 0, 0.494);
+}
+
+.label {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(99, 59, 59, 0.816);
+  font-size: 18px;
+}
+
 /* Responsive */
 @media screen and (max-width: 980px) {
   article {
@@ -749,7 +796,7 @@ article.featured {
   }
 
   .big-button {
-    width: 337px;
+    width: 254px;
     height: 48px;
     left: 0;
     top: 0;
@@ -765,10 +812,11 @@ article.featured {
   }
 
   .grid-container {
-    display: grid;
+    flex-direction: column;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+    display: flex;
     max-width: 190px;
     margin: 20px auto;
   }
@@ -804,5 +852,81 @@ article.featured {
   .My_footer {
     width: 400px;
     padding-left: 0%;
+  }
+
+  .big-button4 {
+    width: 256px;
+    height: 48px;
+    left: 0;
+    top: 0;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #ff6b00;
+    border-style: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+  }
+
+  input[type=text],
+  input[type=email] {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 60px;
+    background-color: #fff;
+    border-width: 0 0 1px;
+    color: rgb(85, 81, 81);
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 250px;
+  }
+
+  textarea {
+    font-family: 'Roboto', sans-serif;
+    background: #fbf8f7;
+    border: none;
+    color: rgb(68, 63, 63);
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 250px;
+    height: 120px;
+  }
+
+  input[type=submit] {
+    width: 250px;
+    height: 48px;
+    left: 0;
+    top: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #ff6b00;
+    border-style: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+  }
+
+  .multi-post2 {
+    width: 250px;
+    height: 385px;
+    padding: 1%;
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgb(38 38 38 / 18%) 61.94%), url(imgs/bg_Placeholder.png), no-repeat;
+  }
+
+  .multi-post3 {
+    width: 250px;
+    height: 330px;
+    padding: 1%;
+    background: url(imgs/placeholder1.svg), no-repeat;
+    border: #0d151e 1px solid;
+  }
+
+  .seeprojects {
+    margin-left: 0;
+    margin-top: 5%;
   }
 }

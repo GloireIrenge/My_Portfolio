@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
-
+<img  alt="UI" src="imgs/ui.PNG">
 A simple Portfolio project this project includes just few files: the stylesheet file, the html file and other coplementary files
 
 web page : https://gloireirenge.github.io/My_Portfolio/
