@@ -146,7 +146,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  color: #857e70;
+  color: #e1dfdb;
   position: relative;
 }
 
@@ -999,11 +999,11 @@ textarea:focus {
 }
 
 .box-bot ul li {
-  border: 1px rgb(29, 29, 29) solid;
+  border: 1px rgb(29 29 29 / 42%) solid;
   list-style-type: none;
-  padding: 3px;
   margin-right: 10px;
   font-size: 17px;
+  padding: 1%;
 }
 
 .padd-change {
