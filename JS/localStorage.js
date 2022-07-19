@@ -4,7 +4,7 @@ const popupps = [
     name: 'Profesional Art Printing Data More',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: './Images/Placeholder5.svg',
+    featuredImage: './imgs/Placeholder5.svg',
     technologies: ['html', 'Bootstrap', 'Ruby on rails'],
     linkVersion: 'See Live',
     linkSource: 'See Source',
@@ -14,7 +14,7 @@ const popupps = [
     name: 'Profesional Art Printing Data More',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: './Images/Plholder03.svg',
+    featuredImage: './imgs/Placeholder5.svg',
     technologies: ['html', 'Bootstrap', 'Ruby on rails'],
     linkVersion: 'See Live',
     linkSource: 'See Source',
@@ -24,7 +24,7 @@ const popupps = [
     name: 'Website Protfolio',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: './Images/Plholder02.svg',
+    featuredImage: './imgs/Placeholder5.svg',
     technologies: ['html', 'Bootstrap', 'Ruby on rails'],
     linkVersion: 'See Live',
     linkSource: 'See Source',
@@ -34,7 +34,7 @@ const popupps = [
     name: 'Profesional Art Printing Data More',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: './Images/Placeholder5.svg',
+    featuredImage: './imgs/Placeholder5.svg',
     technologies: ['html', 'Bootstrap', 'Ruby on rails'],
     linkVersion: 'See Live',
     linkSource: 'See Source',
@@ -44,7 +44,7 @@ const popupps = [
     name: 'Data Dashboard Healthcare',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: './Images/Plholder03.svg',
+    featuredImage: './imgs/Plholder03.svg',
     technologies: ['html', 'Bootstrap', 'Ruby on rails'],
     linkVersion: 'See Live',
     linkSource: 'See Source',
@@ -54,7 +54,7 @@ const popupps = [
     name: 'Website Protfolio',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: './Images/Plholder02.svg',
+    featuredImage: './imgs/Plholder02.svg',
     technologies: ['html', 'Bootstrap', 'Ruby on rails'],
     linkVersion: 'See Live',
     linkSource: 'See Source',
@@ -117,7 +117,7 @@ const showModal = (id, isMultipost) => {
   if (isMultipost) {
     document.getElementById('model-dynamic-content').innerHTML = `
     <div class='pupopp-item'>
-    <img src="./Images/Placeholder.svg" alt="here's placeholder image where the alternatives text goes">
+    <img src="./imgs/Img_Placeholder.svg" alt="here's placeholder image where the alternatives text goes">
   <div class="section-art sm-screen">
       <h2>Multi-Post Stories</h2>
       <p>
