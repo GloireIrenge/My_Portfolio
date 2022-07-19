@@ -488,11 +488,16 @@ img {
   padding-bottom: 4%;
 }
 
+.btn-style-btn {
+  width: 40vh;
+}
+
 .languages li {
   list-style: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 40px;
+  color: #fff;
 }
 
 .languages h2 {
