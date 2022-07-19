@@ -213,6 +213,25 @@ header {
   letter-spacing: 0.03em;
 }
 
+.container-poppup button {
+  width: 100%;
+  margin: 0;
+}
+
+.form-multistories button {
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  transition: 0.5s ease;
+  width: 8rem;
+  text-align: start;
+}
+
+.form-multistories button:hover {
+  cursor: pointer;
+}
+
 .button div button:hover {
   background: #fff5e1;
   color: #f55800;
@@ -595,14 +614,6 @@ footer {
   margin-left: 5%;
 }
 
-.line {
-  width: 100%;
-  margin-right: 50%;
-  height: 1px;
-  background: #726c68;
-  color: rgb(68, 82, 85);
-}
-
 .line4 {
   width: 30%;
   margin: 5%;
@@ -651,6 +662,7 @@ footer {
   max-width: 1200px;
   margin: 20px auto;
 }
+
 .featured2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -694,12 +706,6 @@ textarea:focus {
   font-family: 'Roboto', sans-serif;
   color: rgba(99, 59, 59, 0.816);
   font-size: 18px;
-}
-
-
-.container-poppup button {
-  width: 100%;
-  margin: 0;
 }
 
 @media screen and (max-width: 760px) {
@@ -933,40 +939,7 @@ textarea:focus {
   .nav-btn.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .popupp-Container li {
   margin-bottom: 32px;
@@ -984,7 +957,6 @@ textarea:focus {
   display: flex;
   align-items: center;
 }
-
 
 .about-section p {
   display: block;
@@ -1027,11 +999,6 @@ textarea:focus {
   padding: 3px;
   margin-right: 10px;
   font-size: 17px;
-}
-
-.container-poppup button {
-  width: 100%;
-  margin: 0;
 }
 
 .padd-change {
@@ -1135,7 +1102,6 @@ textarea:focus {
   width: 100%;
 }
 
-
 .popupp-Container h3 {
   font-weight: bold;
   font-size: 28px;
@@ -1159,7 +1125,6 @@ textarea:focus {
   grid-template-columns: auto auto auto;
 }
 
-
 .about-section {
   width: 30rem;
   margin-left: 5rem;
@@ -1175,31 +1140,15 @@ textarea:focus {
   width: 88%;
 }
 
-
 .cod-language h4::before {
   content: '\25C6';
   margin-right: 10px;
   color: #f55800;
 }
 
-
 .btn-pos {
   position: relative;
   bottom: 45px;
-}
-
-.form-multistories button {
-  background-color: #ff6b00;
-  color: #fff;
-  border: none;
-  padding: 15px;
-  transition: 0.5s ease;
-  width: 8rem;
-  text-align: start;
-}
-
-.form-multistories button:hover {
-  cursor: pointer;
 }
 
 .modal-body {
@@ -1230,7 +1179,6 @@ textarea:focus {
 }
 
 @media (min-width: 992px) and (max-width: 1100px) {
-
   .container-block {
     padding: 6rem;
   }
@@ -1265,7 +1213,6 @@ textarea:focus {
   .container-full div:nth-child(6) h2 {
     padding-top: 1.5rem;
   }
-
 
   .about-text {
     background-size: 22rem;
@@ -1302,7 +1249,6 @@ textarea:focus {
     padding: 0;
   }
 
-
   .modal {
     font-size: 13px;
   }
@@ -1311,7 +1257,6 @@ textarea:focus {
     font-size: 38px;
     padding-top: 2rem;
   }
-
 
   .form-multistories {
     flex-wrap: wrap;
@@ -1381,8 +1326,7 @@ textarea:focus {
 
   .modal-body {
     display: grid;
-  } 
-
+  }
 }
 
 @media (min-width: 300px) and (max-width: 700px) {
