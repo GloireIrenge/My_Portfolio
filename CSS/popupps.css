@@ -9,9 +9,9 @@
 
 @media screen and (max-width: 760px) {
   .pupopp-item {
-    display:block;
+    display: block;
   }
-  
+
   .pupopp-form {
     width: 100%;
     background-repeat: no-repeat;
