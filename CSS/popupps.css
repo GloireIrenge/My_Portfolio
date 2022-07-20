@@ -1,0 +1,19 @@
+.pupopp-item {
+  display: flex;
+}
+
+.pupopp-form {
+  width: 50%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 760px) {
+  .pupopp-item {
+    display: block;
+  }
+
+  .pupopp-form {
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+}

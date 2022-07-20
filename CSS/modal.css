@@ -1,0 +1,136 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+  padding-top: 13%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: -200px;
+  margin-top: -77px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  color: #172b4d;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  position: fixed;
+  top: -40px;
+  width: 67%;
+}
+
+.header li {
+  border: 1px solid #979493;
+  font-size: 17px;
+  padding: 10px;
+  margin-top: -10px;
+  height: 40px;
+}
+
+@media screen and (max-width: 760px) {
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 6%;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -77px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .header {
+    color: #172b4d;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    top: 0;
+    left: 0;
+    position: relative;
+    font-size: 18px;
+    margin: 15px 0;
+  }
+
+  .header h2 {
+    font-size: 22px;
+  }
+
+  .header li {
+    border: 1px solid #979493;
+    font-size: 17px;
+    padding: 10px;
+    height: 40px;
+  }
+
+  .container-block h2 {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .luang ul li {
+    background-color: rgba(255, 255, 255, 0.342);
+    padding: 5px;
+    margin-right: 10px;
+    list-style-type: none;
+    transition: all 1s ease;
+  }
+}
