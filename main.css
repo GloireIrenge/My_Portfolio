@@ -434,6 +434,10 @@ header {
   color: #ff6b00;
 }
 
+.error {
+  color: rgb(155, 8, 52);
+}
+
 img {
   width: 50%;
 }
@@ -529,14 +533,12 @@ form {
   text-align: left;
 }
 
-.form_bloc {
-  object-position: center;
+#contact {
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   top: 50%;
   left: 50%;
-  display: inline-block;
   text-align: left;
-  padding-left: 15%;
   padding-bottom: 6%;
 }
 
@@ -770,6 +772,7 @@ textarea:focus {
   }
 
   .form_bloc {
+    grid-template-columns: 1fr 1fr;
     object-position: center;
     align-items: center;
     top: 50%;
@@ -868,11 +871,10 @@ textarea:focus {
 
   input[type=text],
   input[type=email] {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 60px;
+    font-weight: 900;
     background-color: #fff;
     border-width: 0 0 1px;
-    color: rgb(85, 81, 81);
+    color: rgb(19, 4, 4);
     padding: 16px 32px;
     margin: 4px 2px;
     cursor: pointer;
