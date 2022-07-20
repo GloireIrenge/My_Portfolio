@@ -148,15 +148,17 @@
       </div>
       <div class="grid-item">
         <div class="forms">
-          <form action="https://formspree.io" method="POST">
+          <form  action="https://formspree.io/f/xrgjqplp" method="POST" name="myForm" onsubmit="validationForm()">
             <label class="label" for="fullname">Full name</label>
-            <input type="text" id="fullname" maxlength="30" required>
+            <input type="text" name="name" id="fullname" maxlength="30" required>
             <label class="label" for="email">Emanil</label>
-            <input type="email" id="email" required>
-            <textarea placeholder="Enter text here" maxlength="500"></textarea>
+            <input type="email" name="email" id="email" required>
+            <textarea   name="comment" id="comment" cols="30" rows="5" maxlength="500" placeholder="Enter your text here"></textarea>
+            <div class="error"></div>
             <div class="submit_button">
-              <input type="submit" value="Get in touch">
+              <input class="btn btn-style button-submit" type="submit" onclick="validateEmail()">
             </div>
+            
           </form>
         </div>
       </div>
@@ -173,6 +175,7 @@
     <script src="menu.js"></script>
     <script src="./JS/localStorage.js"></script>
     <script src="./JS/modals.js"></script>
+    <script src="./JS/email_validations.js"></script>
   </div>
 </body>
 </html>
