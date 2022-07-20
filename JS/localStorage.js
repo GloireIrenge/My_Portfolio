@@ -4,7 +4,7 @@ const popupps = [
     name: 'Profesional Art Printing Data More',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: './imgs/Placeholder5.svg',
+    featuredImage: './imgs/SnapshootPortfolio.svg',
     technologies: ['html', 'Bootstrap', 'Ruby on rails'],
     linkVersion: 'See Live',
     linkSource: 'See Source',
@@ -117,22 +117,23 @@ const showModal = (id, isMultipost) => {
   if (isMultipost) {
     document.getElementById('model-dynamic-content').innerHTML = `
     <div class='pupopp-item'>
+    <div class="header">
+    <h2>Multi-Post Stories</h2>
+    <div class="luang">
+    <ul>
+    <li>html</li>
+    <li>bootstrap</li>
+    <li>Ruby</li>
+    </ul>
+    </div>  
+    </div>
     <img src="./imgs/Img_Placeholder.svg" alt="here's placeholder image where the alternatives text goes">
   <div class="section-art sm-screen">
-      <h2>Multi-Post Stories</h2>
       <p>
       A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
       </p>
-      <div class="luang">
-          <ul>
-          <li>CSS</li>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-          </ul>
-      </div>
-      <a data-modal-target="#modal" class="btn btn-style btn-style-btn " href="" target="_blank">See Live</a>
-      <a data-modal-target="#modal" class="btn btn-style btn-style-btn " href="" target="_blank">See Source</a>
+      <a data-modal-target="#modal" class="btn btn-style btn-style-btn " href="https://gloireirenge.github.io/My_Portfolio/" target="_blank">See Live <i class="fa fa-external-link" aria-hidden="true"></i></a>
+      <a data-modal-target="#modal" class="btn btn-style btn-style-btn " href="https://github.com/GloireIrenge/My_Portfolio" target="_blank">See Source <i class="fa fa-github" aria-hidden="true"></i></a>
   </div>
   </div>
     `;
