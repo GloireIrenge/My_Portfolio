@@ -37,7 +37,7 @@
 }
 
 .btn-style-btn {
-  width: 15vh;
+  width: 16vh;
 }
 
 .form-multistories img:hover {
@@ -89,7 +89,7 @@
     padding: 15px;
     transition: 0.5s ease;
   }
-  
+
   .btn-style1 {
     background-color: #f55800;
     color: #fff;
@@ -98,70 +98,75 @@
     transition: 0.5s ease;
     font-weight: bold;
   }
-  
+
   .btn {
     transition: 0.5s ease;
   }
-  
+
   .btn:hover {
     background-color: #fff5e1;
     border: 1px #f55800 solid;
     color: #f55800;
     cursor: pointer;
   }
-  
+
   .btn:disabled {
     background-color: #d6b8ae;
     color: rgb(255, 255, 255);
   }
-  
+
   .btn:active {
     background-color: #e05304;
     color: white;
   }
-  
+
   .btn-style-btn {
-    width: 5vh;
+    width: 98px;
   }
-  
+
   .form-multistories img:hover {
     transform: rotate(360deg);
     transition: 1s ease-in;
   }
-  
+
   .luang ul li:hover {
     margin-right: 79px;
   }
-  
+
   .about-section h3:hover {
     transform: translate(100px);
   }
-  
+
   .header-title h1:hover {
     transform: translate(100px);
   }
-  
+
   .text-header h2:hover {
     transform: translate(100px);
   }
-  
+
   .text-header p:hover {
     transform: translate(100px);
   }
-  
+
   .about-section p:hover {
     transform: translate(100px);
   }
-  
+
   .logo-plat ul li:hover {
     margin-bottom: 46px;
   }
-  
+
   .footer-icon ul li:hover {
     margin: 0 20px;
   }
-  
+
   .menu-item ul li a:hover {
     border-bottom: 3px white solid;
+  }
+
+  .close {
+    margin-top: -65px;
+    margin-right: -90px;
   }
 }
