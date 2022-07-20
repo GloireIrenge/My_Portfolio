@@ -38,10 +38,9 @@
 }
 
 .header {
-  color: #172B4D;
+  color: #172b4d;
   float: left;
-  font-size: 28px;
-  font-family: 'Crete Round';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -100,13 +99,12 @@
   }
 
   .header {
-    color: #172B4D;
-    font-size: 28px;
-    font-family: 'Crete Round';
+    color: #172b4d;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     position: relative;
     font-size: 18px;
     margin: 15px 0;
@@ -124,7 +122,7 @@
   }
 
   .container-block h2 {
-    margin-top: 0rem;
+    margin-top: 0;
     padding: 0;
   }
 
@@ -135,5 +133,4 @@
     list-style-type: none;
     transition: all 1s ease;
   }
-
 }
