@@ -145,7 +145,7 @@ const showModal = (id, isMultipost) => {
   } else {
     const item = popupps.find((p) => p.id.toString() === id);
     const {
-      name, description, featuredImage, technologies, linkVersion,
+      description, featuredImage, linkVersion,
     } = item;
 
     document.getElementById('model-dynamic-content').innerHTML = `
