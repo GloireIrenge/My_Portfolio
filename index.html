@@ -1,181 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="./CSS/modal.css" />
-  <link rel="stylesheet" href="./CSS/popupps.css">
-  <link rel="stylesheet" href="./click-style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Gloire - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./CSS/modal.css" />
+    <link rel="stylesheet" href="./CSS/popupps.css">
+    <link rel="stylesheet" href="./click-style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Gloire - Portfolio</title>
 </head>
+
 <body>
-  <header>
-    <div class="nav">
-      <input type="checkbox" id="nav-check">
-      <div class="nav-header">
-        <div class="nav-title">
-          <p><a href="/">GloireM</a></p>
-        </div>
-      </div>
-      <div class="nav-btn" onclick="">
-        <label for="nav-check">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </label>
-      </div>
-      <div class="nav-links">
-        <a href="#portfolio">Portfolio</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#"><img src="imgs/mail.svg" alt="Mail"></a>
-      </div>
-    </div>
-    <div class="body-class" id="intro">
-      <ul class="social_icon">
-        <li><a href="#"><img class="icon" alt="Github icon" src="imgs/gi.svg"></a></li>
-        <li><a href="#"><img class="icon" alt="Linkedin Icon" src="imgs/in.svg"></a> </li>
-        <li><a href="#"><img class="icon" alt="Social media Icon" src="imgs/Enabled.svg"></a></li>
-        <li><a href="#"><img class="icon" alt="social media" src="imgs/Vector.svg"></a></li>
-        <li><a href="#"><img class="icon" alt="social_icon" src="imgs/Disabled.svg"></a></li>
-      </ul>
-      <div class="grid-container">
-        <div class="grid-item texts">
-          <h1>Hey There. I’m Alex</h1>
-          <span>I’am a Software Developer</span>
-          <p>I can help you build a product , feature or website Look through some of my work and experience! If you
-            like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        </div>
-        <ul class="social_iconx">
-          <li><a href="#"><img class="icon" alt="social_icon" src="imgs/gi.svg"></a></li>
-          <li><a href="#"><img class="icon" alt="social_icon" src="imgs/in.svg"></a> </li>
-          <li><a href="#"><img class="icon" alt="social_icon" src="imgs/Enabled.svg"></a></li>
-          <li><a href="#"><img class="icon" alt="social_icon" src="imgs/Vector.svg"></a></li>
-          <li><a href="#"><img class="icon" alt="social_icon" src="imgs/Disabled.svg"></a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
-  <div class="container">
-    <div class="container-block">
-      <div class="my-tile">
-        <h2>My Recent Works</h2>
-        <div class="line-rec-work"></div>
-        <div id="myModal" class="modal">
-          <div class="modal-content" id="modal-content">
-          </div>
-        </div>
-      </div>
-      <section class="form-multistories">
-        <img src="./imgs/Img_Placeholder.svg" alt="here's placeholder image where the alternatives text goes">
-        <div class="img-text">
-          <h3>Multi-Post Stories</h3>
-          <p>
-            A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-            the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
-            dummy
-            text.
-          </p>
-          <div class="box-bot">
-            <ul>
-              <li>CSS</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-          </div>
-          <button data-modal-target="#modal" id="open-modal" class="btn btn-style" onclick="showModal('','true')"
-            type="button">See Project</button>
-        </div>
-      </section>
-    </div>
-    <div class="balckBloc">
-      <div class="about" id="about">
-        <div class="grid-container">
-          <div class="grid-item AboutDescription">
-            <h2>About me</h2>
-            <p>
-              Hello I’m a software developer! I can help you build a product , feature or website Look through some of
-              my work and experience!
-              If you like what you see and have a project you need coded, don’t hestiate to contact me.
-            </p>
-            <button class="big-button3" type="button">Get My Resume</button>
-          </div>
-        </div>
-        <div class="line2"></div>
-      </div>
-      <div class="grid-container all_languages">
-        <div class="grid-item languages">
-          <h2><img class="imageTitle1" alt="languages" src="imgs/languages.svg"></h2>
-          <ul class="languages_list1">
-            <li>Javascript</li>
-            <li>Ruby</li>
-            <li>Html</li>
-            <li>Css</li>
-          </ul>
-        </div>
-        <div class="grid-item languages">
-          <h2><img class="imageTitle2" alt="languages" src="imgs/Frameworks.svg"></h2>
-          <ul class="languages_list1">
-            <li>Bootstrap</li>
-            <li>Ruby on Rails</li>
-            <li>RSPec</li>
-            <li>CapyBara</li>
-            <li>Selenium</li>
-          </ul>
-        </div>
-        <div class="grid-item languages">
-          <h2><img class="imageTitle3" alt="languages" src="imgs/skills.svg"></h2>
-          <ul class="languages_list1">
-            <li>Codekit</li>
-            <li>Github</li>
-            <li>Codepen</li>
-            <li>Gitlab</li>
-            <li>Terminal</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="grid-container form_bloc" id="contact">
-      <div class="grid-item">
-        <div class="description">
-          <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-        </div>
-      </div>
-      <div class="grid-item">
-        <div class="forms">
-          <form  action="https://formspree.io/f/xrgjqplp" method="POST" name="myForm" onsubmit="validationForm()">
-            <label class="label" for="fullname">Full name</label>
-            <input type="text" name="name" id="fullname" maxlength="30" required>
-            <label class="label" for="email">Emanil</label>
-            <input type="email" name="email" id="email" required>
-            <textarea   name="comment" id="comment" cols="30" rows="5" maxlength="500" placeholder="Enter your text here"></textarea>
-            <div class="error"></div>
-            <div class="submit_button">
-              <input class="btn btn-style button-submit" type="submit" onclick="validateEmail()">
+    <header>
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+                <div class="nav-title">
+                    <p><a href="/">GloireM</a></p>
+                </div>
             </div>
-            
-          </form>
+            <div class="nav-btn" onclick="">
+                <label for="nav-check">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </label>
+            </div>
+            <div class="nav-links">
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#"><img src="imgs/mail.svg" alt="Mail"></a>
+            </div>
         </div>
-      </div>
+        <div class="body-class" id="intro">
+            <ul class="social_icon">
+                <li><a href="#"><img class="icon" alt="Github icon" src="imgs/gi.svg"></a></li>
+                <li><a href="#"><img class="icon" alt="Linkedin Icon" src="imgs/in.svg"></a> </li>
+                <li><a href="#"><img class="icon" alt="Social media Icon" src="imgs/Enabled.svg"></a></li>
+                <li><a href="#"><img class="icon" alt="social media" src="imgs/Vector.svg"></a></li>
+                <li><a href="#"><img class="icon" alt="social_icon" src="imgs/Disabled.svg"></a></li>
+            </ul>
+            <div class="grid-container">
+                <div class="grid-item texts">
+                    <h1>Hey There. I’m Alex</h1>
+                    <span>I’am a Software Developer</span>
+                    <p>I can help you build a product , feature or website Look through some of my work and experience!
+                        If you
+                        like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                </div>
+                <ul class="social_iconx">
+                    <li><a href="#"><img class="icon" alt="social_icon" src="imgs/gi.svg"></a></li>
+                    <li><a href="#"><img class="icon" alt="social_icon" src="imgs/in.svg"></a> </li>
+                    <li><a href="#"><img class="icon" alt="social_icon" src="imgs/Enabled.svg"></a></li>
+                    <li><a href="#"><img class="icon" alt="social_icon" src="imgs/Vector.svg"></a></li>
+                    <li><a href="#"><img class="icon" alt="social_icon" src="imgs/Disabled.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="container-block">
+            <div class="my-tile">
+                <h2>My Recent Works</h2>
+                <div class="line-rec-work"></div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content" id="modal-content">
+                    </div>
+                </div>
+            </div>
+            <section class="form-multistories">
+                <img src="./imgs/Img_Placeholder.svg" alt="here's placeholder image where the alternatives text goes">
+                <div class="img-text">
+                    <h3>Multi-Post Stories</h3>
+                    <p>
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
+                        dummy
+                        text.
+                    </p>
+                    <div class="box-bot">
+                        <ul>
+                            <li>CSS</li>
+                            <li>html</li>
+                            <li>bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button data-modal-target="#modal" id="open-modal" class="btn btn-style"
+                        onclick="showModal('','true')" type="button">See Project</button>
+                </div>
+            </section>
+        </div>
+        <div class="balckBloc">
+            <div class="about" id="about">
+                <div class="grid-container">
+                    <div class="grid-item AboutDescription">
+                        <h2>About me</h2>
+                        <p>
+                            Hello I’m a software developer! I can help you build a product , feature or website Look
+                            through some of
+                            my work and experience!
+                            If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                        </p>
+                        <button class="big-button3" type="button">Get My Resume</button>
+                    </div>
+                </div>
+                <div class="line2"></div>
+            </div>
+            <div class="grid-container all_languages">
+                <div class="grid-item languages">
+                    <h2><img class="imageTitle1" alt="languages" src="imgs/languages.svg"></h2>
+                    <ul class="languages_list1">
+                        <li>Javascript</li>
+                        <li>Ruby</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                    </ul>
+                </div>
+                <div class="grid-item languages">
+                    <h2><img class="imageTitle2" alt="languages" src="imgs/Frameworks.svg"></h2>
+                    <ul class="languages_list1">
+                        <li>Bootstrap</li>
+                        <li>Ruby on Rails</li>
+                        <li>RSPec</li>
+                        <li>CapyBara</li>
+                        <li>Selenium</li>
+                    </ul>
+                </div>
+                <div class="grid-item languages">
+                    <h2><img class="imageTitle3" alt="languages" src="imgs/skills.svg"></h2>
+                    <ul class="languages_list1">
+                        <li>Codekit</li>
+                        <li>Github</li>
+                        <li>Codepen</li>
+                        <li>Gitlab</li>
+                        <li>Terminal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container form_bloc" id="contact">
+            <div class="grid-item">
+                <div class="description">
+                    <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in
+                        touch.</h2>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="forms">
+                    <form action="https://formspree.io/f/xrgjqplp" method="POST" name="myForm" id="contactForm"
+                        onsubmit="validationForm()">
+                        <label class="label" for="fullname">Full name</label>
+                        <input type="text" name="name" id="fullname" maxlength="30" required>
+                        <label class="label" for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                        <textarea name="comment" id="comment" cols="30" rows="5" maxlength="500"
+                            placeholder="Enter your text here"></textarea>
+                        <div class="submit_button">
+                            <input class="btn btn-style button-submit" type="submit" id="submitForm"
+                                onclick="validateEmail()">
+                        </div>
+                        <div class="error"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="My_footer">
+                <ul class="social_icon2">
+                    <li><a href="#"><img class="icon" alt="social_icon" src="imgs/github2.svg"></a></li>
+                    <li><a href="#"><img class="icon" alt="social_icon" src="imgs/linkedin2.svg"></a> </li>
+                    <li><a href="#"><img class="icon" alt="social_icon" src="imgs/thund2.svg"></a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="menu.js"></script>
+        <script src="./JS/localStorage.js"></script>
+        <script src="./JS/modals.js"></script>
+        <script src="./JS/email_validations.js"></script>
     </div>
-    <footer>
-      <div class="My_footer">
-        <ul class="social_icon2">
-          <li><a href="#"><img class="icon" alt="social_icon" src="imgs/github2.svg"></a></li>
-          <li><a href="#"><img class="icon" alt="social_icon" src="imgs/linkedin2.svg"></a> </li>
-          <li><a href="#"><img class="icon" alt="social_icon" src="imgs/thund2.svg"></a></li>
-        </ul>
-      </div>
-    </footer>
-    <script src="menu.js"></script>
-    <script src="./JS/localStorage.js"></script>
-    <script src="./JS/modals.js"></script>
-    <script src="./JS/email_validations.js"></script>
-  </div>
 </body>
+
 </html>
