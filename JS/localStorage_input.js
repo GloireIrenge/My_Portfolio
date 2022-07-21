@@ -15,7 +15,3 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-form.onchange = (event) => {
-  dataStore[event.target.id] = event.target.value;
-  localStorage.setItem('contact-info', JSON.stringify(dataStore));
-};
